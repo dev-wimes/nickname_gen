@@ -85,3 +85,9 @@ D9 -> 9 + 97 = 106 = j
    Target: arm64-apple-darwin25.2.0
    Thread model: posix
    ```
+
+## 실행
+```
+clang++ -std=c++11 -O2 -Wall -Wextra main.cpp -o nick
+./nick
+```
